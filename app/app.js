@@ -21,7 +21,7 @@ function writeFile(file, newText){
   return fsExtra.writeFile(file, newText)
     .then(() => {
       console.log(`${file} saved`);
-    })
+    });
 }
 
 const alterFile = (file) => {
